@@ -31,7 +31,7 @@ const App = (() => {
           <span>Conhecida por todos como a melhor plataforma de agendamento & administração do nordeste</span>
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-4">
-          <img src={logo}/>
+          <img src={logo} className="blur-sm"/>
           <button className="text-black bg-zinc-100 p-2 rounded-md border font-semibold hover:bg-black hover:text-zinc-100 transition-all">REGISTRE SUA BARBEARIA</button>
         </div>
         <div className="h-4"/>
